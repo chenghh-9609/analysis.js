@@ -86,11 +86,13 @@ function lf(n) {
 
 function beforeRequest(t) {
   var d = "xyz517cda96abcd"; //d = i[zt](Rt, B) = yf("qimai@2022&Technology", 1) = "xyz517cda96abcd",
-  s = 610;                  // s = c[x][k][Pt] = Vue.prototype.difftime，根据组件有所不同，这里测试的页面为610
-  p = "analysis";           // p = (i[Bt](i[Ht](Gt), d),i[Bt](i[Ht](It), d),i[Bt](i[Ht](Dt), d),i[Bt](i[Ht]($t), d)) 
-                            //   = (pf(lf("Jwo="),d),pf(lf("Jw0=", d),pf(lf("Jw8=", d),pf(lf(""GRcbWUhEChc="", d)) 
-                            //   = "analysis"
-  var v = "@#";             // v = i[Bt](i[Ht](Nt), d) = pf(lf("OFo="), d) = "@#"
+  s = 71710;                 // s = c[x][k][Pt] = Vue.prototype.difftime，根据组件有所不同
+                             // 这里我测试了，s不管取什么值，虽然加密后的analysis值都不一样，
+                             //analysis结果的字符串仅-10~-5位不一样，但是都能拿到请求数据
+  p = "analysis";            // p = (i[Bt](i[Ht](Gt), d),i[Bt](i[Ht](It), d),i[Bt](i[Ht](Dt), d),i[Bt](i[Ht]($t), d)) 
+                             //   = (pf(lf("Jwo="),d),pf(lf("Jw0=", d),pf(lf("Jw8=", d),pf(lf(""GRcbWUhEChc="", d)) 
+                             //   = "analysis"
+  var v = "@#";              // v = i[Bt](i[Ht](Nt), d) = pf(lf("OFo="), d) = "@#"
   try {
     let e,
       r = +new Date() - (s || 0) - 1661224081041,
